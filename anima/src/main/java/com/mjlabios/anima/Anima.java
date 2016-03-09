@@ -202,6 +202,14 @@ public class Anima {
         moveIt(0);
     }
 
+    public void moveIt(Animation.AnimationListener animListener){
+        procedure.setFillAfter(true);
+
+        procedure.setAnimationListener(animListener);
+
+        v.startAnimation(procedure);
+    }
+
 
     public void moveIt(final int Repeat){
 
@@ -235,6 +243,8 @@ public class Anima {
 
         v.startAnimation(procedure);
     }
+
+
 
 
     public void stopIt(){
