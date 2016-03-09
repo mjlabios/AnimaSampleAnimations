@@ -8,3 +8,6 @@ Android view wrapper for animating views with customizable animations
 *All animation in one class.
 
 *Just wrap your view and animate!
+
+
+Guide, to follow... =)
