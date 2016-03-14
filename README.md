@@ -36,7 +36,7 @@ a.scale(0.8,0.8,1,0).moveIt();
 // 1st parameter scales its object 0.8 in width
 //, 2nd parameter scales its object 0.8 in height
 //, 3rd parameter declares animation time - in this example animation will run for 1 sec(the longer the time the slower the animation), 
-//4th parameter declares how long before the animation starts in this case 1 sec (used for chaining animations)
+//4th parameter declares how long before the animation starts in this case 0 sec (used for chaining animations)
 //.moveIt() - commences the animation, can take int parameter as number of times to repeat animation, or Animation.INFINITE, for looping indefinitely.
 ```
 
